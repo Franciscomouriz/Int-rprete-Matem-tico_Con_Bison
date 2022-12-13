@@ -1,5 +1,6 @@
 # Interprete-Matematico_Con_Bison
-Calculadora científica desarrollada en C utilizando las herramientas Flex y Bison para los análisis léxicos y sintácticos 
+Calculadora científica desarrollada en C utilizando las herramientas Flex y Bison para los análisis léxicos y sintácticos.
+
 El programa se puede ejecutar de dos formas. La más básica es la siguiente:
 
 	./interpreteMatematico
