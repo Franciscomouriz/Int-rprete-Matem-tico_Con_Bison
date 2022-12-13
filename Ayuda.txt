@@ -1,0 +1,64 @@
+RESUMEN
+_______
+
+El programa permite realizar operaciones sencillas, la declaración de variables, y la llamada de funciones matemáticas.
+Esto se puede hacer cargando un fichero o por línea de comandos.
+
+LINEA DE COMANDOS 
+_________________
+
+Las operaciones realizadas mostrarán su resultado. Para que esto no suceda se puede finalizar la operación con ';'.
+
+ARGUMENTOS
+__________
+
+(1) -h o -- help    Muestra por pantalla el fichero de ayuda
+(2) file            Se debe escribir la ruta al fichero que se quiere ejecutar
+
+PALABRAS CLAVE
+______________
+
+(1) QUIT            Se finaliza el programa limpiando la memoria
+(2) HELP            Muestra por pantalla el fichero de ayuda
+(3) CLEAN           Elimina todas las variables declaradas durante la ejecución del programa
+(4) LOAD            Carga el fichero que se le indica a continuación
+(5) WORKSPACE       Muestra todas las variables declaradas durante la ejecución del programa
+
+OPERACIONES PERMITIDAS
+______________________
+
+Las operaciones básicas permitidas son las siguientes:
+
+Asignación          =
+Suma                +
+Resta               -
+Multiplicación      *
+División            /
+Módulo              %
+
+Se permiten las siguientes combinaciones:
+
+Suma y Asignación   +=
+Resta y Asignación  -=
+Suma 1              ++
+Resta 1             --
+
+Permite comparar números y variables:
+
+Mayor que           >
+Menor que           <
+
+Existen las siguientes constantes
+
+E                   2.718281828459045
+PI                  3.141592653589793
+
+Por último, se pueden llamar a las siguientes funciones:
+
+sin()               Seno de un número en radianes
+cos()               Coseno de un número en radianes
+tan()               Tangente de un número en radianes
+sqrt()              Raíz cuadrada de un número
+exp()               Eleva e al valor que se le indica
+ln()                Calcula el logaritmo neperiano
+pow( , )            Eleva el primer número al segundo   
